@@ -8,5 +8,8 @@ public class NumeroInformado {
         int numero = scanner.nextInt();
 
         System.out.println("O número informado foi: " + numero);
+
+        scanner.close();
+
     }
 }

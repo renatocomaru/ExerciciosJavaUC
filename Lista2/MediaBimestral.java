@@ -13,5 +13,8 @@ public class MediaBimestral {
 
         double media = somaNotas / 4;
         System.out.println("A média das notas é: " + media);
+
+        scanner.close();
+
     }
 }

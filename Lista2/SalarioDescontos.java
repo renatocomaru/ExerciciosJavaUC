@@ -21,5 +21,7 @@ public class SalarioDescontos {
         System.out.printf("INSS (8%%): R$ %.2f%n", inss);
         System.out.printf("Sindicato (5%%): R$ %.2f%n", sindicato);
         System.out.printf("Salário Líquido: R$ %.2f%n", salarioLiquido);
+
+        scanner.close();
     }
 }

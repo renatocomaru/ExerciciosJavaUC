@@ -11,5 +11,7 @@ public class ConversaoTemperatura {
 
         System.out.println("A temperatura em Celcius é de: " + celsius + ".");
 
+        scanner.close();
+
     }
   }

@@ -14,5 +14,7 @@ public class TempoDeDownload {
         double tempoMinutos = tempoSegundos / 60;
 
         System.out.printf("Tempo aproximado de download: %.2f minutos%n", tempoMinutos);
+
+        scanner.close();
     }
 }

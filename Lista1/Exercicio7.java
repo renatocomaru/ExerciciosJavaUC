@@ -12,5 +12,7 @@ public class Exercicio7 {
 
         System.out.println("Você precisará de " + qtdLatas + " latas de tinta.");
         System.out.println("O preço total será de R$ " + precoTotal + ".");
+
+        input.close();
     }
 }

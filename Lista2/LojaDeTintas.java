@@ -13,5 +13,8 @@ public class LojaDeTintas {
 
         System.out.println("Quantidade de latas de tinta a serem compradas: " + latasNecessarias);
         System.out.printf("Preço total: R$ %.2f%n", precoTotal);
+
+        scanner.close();
+
     }
 }

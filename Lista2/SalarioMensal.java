@@ -13,5 +13,7 @@ public class SalarioMensal {
         double salario = valorHora * horasTrabalhadas;
 
         System.out.println("Seu salário neste mês é: " + salario);
+
+        scanner.close();
     }
 }

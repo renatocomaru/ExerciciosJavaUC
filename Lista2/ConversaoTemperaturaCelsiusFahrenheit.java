@@ -10,5 +10,8 @@ public class ConversaoTemperaturaCelsiusFahrenheit {
         double fahrenheit = (celsius * 9.0/5.0) + 32;
 
         System.out.printf("A temperatura em graus Fahrenheit é: %.2f%n", fahrenheit);
+
+        scanner.close();
+
     }
 }

@@ -11,5 +11,8 @@ public class AreaQuadrado {
         double dobroArea = area * 2;
 
         System.out.println("O dobro da área do quadrado é: " + dobroArea);
+
+        scanner.close();
+
     }
 }

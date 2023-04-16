@@ -9,5 +9,7 @@ public class ConversaoMetro {
 
         double centimetros = metros * 100;
         System.out.println(metros + " metros equivalem a " + centimetros + " centímetros.");
+        
+        scanner.close();
     }
 }

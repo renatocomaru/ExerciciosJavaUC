@@ -18,5 +18,8 @@ public class MultaPescador {
 
         System.out.printf("Excesso de peso: %.2f kg%n", excesso);
         System.out.printf("Valor da multa: R$ %.2f%n", multa);
+
+        scanner.close();
+
     }
 }

@@ -12,5 +12,7 @@ public class SomaNumeros {
 
         int soma = numero1 + numero2;
         System.out.println("A soma dos números é: " + soma);
+
+        scanner.close();
     }
 }

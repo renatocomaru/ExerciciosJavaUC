@@ -27,5 +27,8 @@ public class LojaDeTintas2 {
         System.out.printf("Apenas latas de 18 litros: %d latas, total R$ %.2f%n", latas18, precoLatas18);
         System.out.printf("Apenas galões de 3,6 litros: %d galões, total R$ %.2f%n", galoes36, precoGaloes36);
         System.out.printf("Mistura de latas e galões: %d latas e %d galões, total R$ %.2f%n", latas, galoes, precoMisto);
+
+        scanner.close();
+
     }
 }

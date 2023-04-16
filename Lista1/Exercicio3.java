@@ -8,5 +8,7 @@ public class Exercicio3 {
         String nome = input.nextLine();
 
         System.out.println("Seu nome é " + nome + ".");
+
+        input.close();
     }
 }

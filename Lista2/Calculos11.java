@@ -20,5 +20,7 @@ public class Calculos11 {
         System.out.printf("O produto do dobro do primeiro com metade do segundo: %.2f%n", resultado1);
         System.out.printf("A soma do triplo do primeiro com o terceiro: %.2f%n", resultado2);
         System.out.printf("O terceiro elevado ao cubo: %.2f%n", resultado3);
+
+        scanner.close();
     }
 }

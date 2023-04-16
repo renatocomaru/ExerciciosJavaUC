@@ -10,5 +10,7 @@ public class Exercicio2 {
         double centimetros = metros * 100;
 
         System.out.println(metros + " metros correspondem a " + centimetros + " centímetros.");
+
+        input.close();
     }
 }

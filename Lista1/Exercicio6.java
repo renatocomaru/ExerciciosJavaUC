@@ -10,5 +10,7 @@ public class Exercicio6 {
         double tempC = 5 * ((tempF - 32) / 9);
 
         System.out.println(tempF + " graus Fahrenheit equivalem a " + tempC + " graus Celsius.");
+
+        input.close();
     }
 }

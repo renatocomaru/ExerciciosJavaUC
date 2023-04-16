@@ -8,5 +8,7 @@ public class Exercicio1 {
         int numero = input.nextInt();
 
         System.out.println("O número informado foi " + numero + ".");
+
+        input.close();
     }
 }

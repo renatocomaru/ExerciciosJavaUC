@@ -13,5 +13,7 @@ public class Exercicio4 {
         double salario = valorHora * horasTrabalhadas;
 
         System.out.println("Seu salário neste mês será de R$ " + salario);
+
+        input.close();
     }
 }

@@ -16,5 +16,7 @@ public class Exercicio5 {
 
         System.out.println("A soma total das notas é " + somaNotas + ".");
         System.out.println("A média das notas é " + mediaNotas + ".");
+
+        input.close();
     }
 }
